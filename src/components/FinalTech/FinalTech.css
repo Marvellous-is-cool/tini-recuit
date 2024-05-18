@@ -1,0 +1,50 @@
+@import url("../../assets/css/bs/css/bootstrap.min.css");
+@import url("../../assets/css/animate.css");
+
+/* FinalTech.css */
+.final-tech-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.final-tech-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.final-tech-container p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.final-tech-container strong {
+  color: #007bff; /* You can change the color as needed */
+}
+
+.final-tech-container .btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.final-tech-container .btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.final-tech-container .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.final-tech-container .btn-secondary {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+}
+
+.final-tech-container .btn-secondary:hover {
+  background-color: #5a6268;
+}

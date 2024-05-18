@@ -1,0 +1,75 @@
+.step-two-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.step-two-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.step-two-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-two-container .form-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.step-two-container label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.step-two-container select {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.step-two-container button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.step-two-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Notification */
+.notification {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #031504;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  animation: fadeOut 35s ease forwards; /* Fade out animation */
+}
+
+/* Fade out animation */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

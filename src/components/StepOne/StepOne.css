@@ -1,0 +1,31 @@
+@import url("../../assets/css/bs/css/bootstrap.min.css");
+@import url("../../assets/css/animate.css");
+
+/* Custom styles for StepOne component */
+.step-one-container h2 {
+  font-family: "Alata", sans-serif;
+}
+
+.step-one-container label {
+  font-family: "Arima", sans-serif;
+}
+
+.step-one-container .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.step-one-container .form-check-label {
+  font-size: 1rem;
+}
+
+.step-one-container .btn {
+  background-color: #330099;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: "Alata";
+}
+
+.step-one-container .btn:hover {
+  background-color: #020d18;
+}

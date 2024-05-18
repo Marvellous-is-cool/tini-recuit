@@ -1,0 +1,30 @@
+@import url("./assets/css/fonts_collection.css");
+@import url(./assets/css/animate.css);
+@import url(./assets/css/bs/css/bootstrap.min.css);
+
+:root {
+  --font-base: "Arima", serif;
+  --font-alt: "Open Sans", sans-serif;
+  --font-b: "Barriecito", serif;
+  --font-a: "Arima", serif;
+  --font-c: "Be Vietnam Pro", serif;
+  --font-d: "Bevan", serif;
+  --font-e: "Alata", serif;
+  --font-f: "Atomic Age", serif;
+  --font-g: "Autour One", serif;
+  /* --font-arima: "Arima", serif; */
+
+  --color-golden: #dcca87;
+  --color-black: #0c0c0cfa;
+  --color-gray: #545454;
+  --color-crimson: #f5efdb;
+  --color-grey: #aaaaaa;
+  --color-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}

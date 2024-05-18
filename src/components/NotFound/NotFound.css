@@ -1,0 +1,37 @@
+@import url("../../assets/css/fonts_collection.css");
+@import url("../../assets/css/bs/css/bootstrap.min.css");
+@import url("../../assets/css/animate.css");
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.not-found-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.not-found-container h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+.not-found-container p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.not-found-container a {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.not-found-container .btn {
+  border-radius: 15px;
+  font-family: "Alata";
+}
